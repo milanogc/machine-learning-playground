@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+pandas = "*"
+scikit-learn = "*"
+sklearn-pandas = "*"
+category-encoders = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
